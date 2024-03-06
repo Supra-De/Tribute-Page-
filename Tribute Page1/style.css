@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}    
+    
+    
+    
+ .top{
+    display:flex;
+    justify-content: space-between;
+    margin-top:75px;
+    align-items:center;
+ }
+ .top h1{
+     font-size:50px;
+     font-weight:bold;
+     color:black;
+     text-transform:uppercase;
+ }  
+ .top h3{
+    font-size:20px;
+    text-align:end;
+ } 
+.container{
+    background-color: rgb(166, 166, 210);
+    min-height:100vh;
+    border:10px solid rgb(1, 1, 62);
+    
+}
+.content{
+    max-width:900px;
+    margin:0 auto;
+}
+.image{
+   border-radius:50%;
+   overflow:hidden;
+}
+.image,img{
+    width:300px;
+    height:350px;
+}
+.middle{
+    margin-top:20px;
+}
+.middle h2{
+    font-size:70px;
+    font-weight:400;
+    margin-bottom:20px;
+}
+.middle p{
+    font-size:20px;
+    line-height: 30px;
+    letter-spacing:1.2px;
+    text-align:justify;
+}
+.achievemants{
+   margin-top:30px;
+}
+.achievemants h2{
+    margin-bottom:20px;
+}
+.achievemants ul{
+    margin-left:50px;
+}
+.achievemants li{
+    margin-bottom:15px;
+    font-size:20px
+}
+footer p{
+    margin-top:90px;
+    text-align:end;
+}
